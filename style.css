@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, hsla(348, 97%, 63%, 0.65), hsla(230, 96%, 62%, 0.65));
+}
+#main{
+    width: 40%;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    float: left;
+    margin: 90px 10px 0 190px;
+}
+#head{
+    background-color: black;
+    width: 100%;
+    height: 55px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+#main input{
+    height: 30px;
+    width: 45%;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+#main label{
+    font-size: 23px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+.btn_total{
+    outline: none;
+    border: none;
+    width: 14%;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 50px;
+    font-size: 22px;
+    background-color: orange;
+}
+.btn_average{
+    outline: none;
+    border: none;
+    width: 20%;
+    height: 40px;
+    font-size: 22px;
+    background-color: orange;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+.btn_grade{
+    outline: none;
+    border: none;
+    width: 14%;
+    height: 40px;
+    background-color: orange;
+    margin-top: 50px;
+    font-size: 22px;
+}
+#result{
+    height: 500px;
+    width: 30%;
+    float: left;
+    margin-top: 90px;
+    background-color: white;
+}
+#head1, #head2, #head3{
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    color: white;
+    text-align: center;
+}
+#total{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+#ave{
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: white;
+}
+#grade{
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: white;
+}

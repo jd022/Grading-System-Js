@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+        <div id="head"><h1>Grading System</h1></div>
+            <label for="">HCI 102</label>
+            <input type="number" id="hci" required><br>
+            <label for="">NC 102</label>
+            <input type="number" id="nc" required><br>
+            <label for="">PL 101</label>
+            <input type="number" id="pl" required><br>
+            <label for="">PD 101</label>
+            <input type="number" id="pd" required><br><br>
+            <button class="btn_total" onclick="Total()">Total</button>
+            <button class="btn_average" onclick="Average()">Average</button>
+            <button class="btn_grade" onclick="Grade()">Grade</button>
+    </div>
+    <div id="result">
+        <div id="head1"><h1>Total</h1></div>
+        <div id="total">
+
+        </div>
+
+        <div id="head2"><h1>Average</h1></div>
+        <div id="ave">
+            
+        </div>
+
+        <div id="head3"><h1>Grade</h1></div>
+        <div id="grade">
+
+        </div>
+    </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
